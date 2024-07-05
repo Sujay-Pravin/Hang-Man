@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hangman</title>
+        <link href="CSS/hstyle.css" rel="stylesheet">
+        <link href="img/full.png" type="img" rel="icon">
+    </head>
+    <body>
+        <div id="home">
+            <div>
+                <h1>HANGMAN</h1>
+                <h2>When nothing goes right, <span>guess from the left.” 🎯</span></h2>
+            </div>
+            <div id="theme">
+                <img src="img/hangman.gif" id="home-hang" alt="hangman">
+                <div>
+                    <h2 id="diff">Select Difficulty </h2>
+                    <div >
+                        <button id="easy" class="difbtn">EASY</button>
+                        <button id="mod" class="difbtn">MODERATE</button>
+                        <button id="hrd" class="difbtn">HARD</button>
+                    </div>
+                    <button id="new">NEW GAME</button>
+                    <p id="herr"></p>
+                </div>                
+            </div>
+        </div>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+        <div id="gameon">
+            <div id="top">
+                <h1>HANGMAN</h1>
+                <div id="level">
+                    <h1 >-</h1>
+                    <h1 id="lvl">LEVEL</h1>
+                </div>
+                
+            </div>
+            
+            <h2 >HINT  </h2>
+            <h2 id="hint">EASY</h2>
+            <img alt="hangman" src="img/1.jpg" id="hangman">
+            <ul id = "blank">
+            </ul>
+            <div id="alphkeys">
+                <div id="r1">
+                    <button class="alphkey" id="END">END</button>
+                    <button class="alphkey" id="NEXT">NEXT</button>
+                    <button class="alphkey" id="CLUE">CLUE = 3</button>
+                </div>
+                <div id="r2" class="keys">
+                
+                </div>
+                <div id="r3" class="keys">
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+    </body>
+    <script src="SCRIPT/data.js" defer></script>
+    <script src="SCRIPT/hcode.js" defer></script>
+</html> 

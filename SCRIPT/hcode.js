@@ -146,9 +146,6 @@ let hvwords = []
 
 
 function wordgen(easList,vwords){
-    console.log(easList)
-    console.log(vwords.length!=easList.length)
-    
 
 // ----------------------------------------------------------
 
@@ -166,10 +163,9 @@ function wordgen(easList,vwords){
 // ---------------------------------------------------------
 
     var{word,hint} = easList[Math.floor(Math.random()*easList.length)]
-    console.log(vwords.includes(word))
     if(vwords.length!=easList.length){
         if(vwords.includes(word)){
-            console.log(vwords.includes(word))
+    
             wordgen(easList,vwords)
         }
         else{

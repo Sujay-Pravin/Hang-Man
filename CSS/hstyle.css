@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+
+
+
 html{
     width: 100%;
     height: 100%;
@@ -21,7 +25,7 @@ body{
     image-rendering: optimizeQuality;
     /* border: 1px solid white; */
 }
-#hint{
+#hint , .clr{
     color: #B388EB;
     text-align: center;
 
@@ -101,6 +105,17 @@ body{
 #herr{
     color: red;
     font-size: 20px;
+}
+
+
+.card{
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+
+}
+#hcard{
+    border-bottom: 3px solid white;
+    width:fit-content;
 }
 
 
